@@ -4,7 +4,7 @@
 # Run the r file using terminal.
 
 # Display a prompt to the user
-cat("Enter the length in inches: ")
+cat("Enter the length in inches: \n")
 
 # Read a line of text from the user
 inch <- as.numeric(readline(prompt = ""))

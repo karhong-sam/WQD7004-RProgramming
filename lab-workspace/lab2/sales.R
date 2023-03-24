@@ -3,7 +3,7 @@
 # Run the r file using terminal.
 
 # Display a prompt to the user
-cat("Enter the price of items: ")
+cat("Enter the price of items: \n")
 
 # Read a line of text from the user
 price <- as.numeric(readline(prompt = ""))
