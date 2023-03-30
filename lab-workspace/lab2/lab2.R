@@ -42,7 +42,7 @@ ans4 <- print(list(y1 = y1, y2 = y2, y3 = y3, y4 = y4))
 
 # Create a vector z based on the requirements below:
 # a. A sequence of 10 W
-z1 <- c(10, "W")
+z1 <- rep("W", each = 10)
 
 # b. A sequence of R R R S S S
 z2 <- rep(c("R", "S"), each = 3)
